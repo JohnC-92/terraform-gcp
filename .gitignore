@@ -1,0 +1,15 @@
+# local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# sensitive credential file
+*.json
+
+# sensitive variables file
+variables.tf
